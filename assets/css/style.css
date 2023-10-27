@@ -21,8 +21,7 @@ body {
 
 header {
     background-color: rgb(229, 229, 229);
-    padding: 0 1rem;
-    position: fixed;
+    padding: 0;
     z-index: 99;
     width: 100%;
     box-shadow: 0;
@@ -35,7 +34,9 @@ header a {
     color: inherit;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    text-transform: none;   
+    text-transform: none;  
+    display: block; 
+    padding: 10px 0;
 }
 
 #menu {
@@ -78,8 +79,13 @@ h2, h3 {
 /*main content*/
 main {
     background-color: aquamarine;
+    margin-top: 100px;
+    padding: 20px;
+    overflow: auto;
     /*this element pushes the footer down*/
     flex: 1 0 auto;
+    margin-top: 0;
+
 }
 
 /*artist photo*/
