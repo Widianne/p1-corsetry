@@ -5,228 +5,232 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 * {
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;  
-    /*generic styles*/
-    color: #053a31; 
-    font-family: 'Roboto Mono', monospace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*generic styles*/
+  color: #053a31;
+  font-family: 'Roboto Mono', monospace;
 }
 
 header {
-    background-color: rgb(229, 229, 229);
-    padding: 0;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0;
-    box-shadow: 0 2px 2px #93938a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-   
+  background-color: rgb(229, 229, 229);
+  padding: 0;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0;
+  box-shadow: 0 2px 2px #93938a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 header a {
-    text-decoration: none;
-    color: inherit;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    text-transform: none;  
-    display: block; 
-    padding: 3px 0;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-transform: none;
+  display: block;
+  padding: 3px 0;
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
+  font-size: 110%;
+  letter-spacing: 2px;
+  list-style-type: none;
 }
 #menu > li {
-    margin-bottom: 4 em;
+  margin-bottom: 4 em;
 }
 
 .active {
-    border-bottom: 1px solid #14ceaf;
+  border-bottom: 1px solid #14ceaf;
 }
 
 /*navbar styels with toggle dropdwon*/
 nav {
-    background-color: rgb(229, 229, 229);
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #93938a;
-    display: none;
-    top: 100%;
+  background-color: rgb(229, 229, 229);
+  width: 100%;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #93938a;
+  display: none;
+  top: 100%;
 }
 
 /*nav toggle*/
-#nav-toggle:checked~nav {
-    display: block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 #nav-toggle-label {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 h1 {
-    color: #053a31;
-    text-transform:initial;
-    letter-spacing: 2px;
-    font-family: 'Playfair Display', serif;
-    font-size: 45px;
-    text-decoration: none;
-    font-weight: bold;
-    
+  color: #053a31;
+  text-transform: initial;
+  letter-spacing: 2px;
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-h2, h3 {
-    font-family: 'Playfair Display', serif;;
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
 }
 
 /*header img styling*/
 #hero {
-    height: 600px;
-    width: 100%;
-    /*this adds img to page head by gooing form assets to images to the acctual pic. then we make sure this centerd n pretty with thw follwoing commands. the commansd also make sure the img dosnet get distorted n weird on diffrant screansgi*/
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
-    position: relative;
+  height: 600px;
+  width: 100%;
+  /*this adds img to page head by gooing form assets to images to the acctual pic. then we make sure this centerd n pretty with thw follwoing commands. the commansd also make sure the img dosnet get distorted n weird on diffrant screansgi*/
+  background: url('../images/hero-image.webp') no-repeat center center/cover;
+  position: relative;
 }
 
 /*main content*/
 main {
-    background-color: aquamarine;
-    margin-top: 100px;
-    padding: 10px;
-    overflow: auto;
-    /*this element pushes the footer down*/
-    flex: 1 0 auto;
-    margin-top: 0;
-    margin-top: 47px;
-
+  background-color: aquamarine;
+  margin-top: 100px;
+  padding: 10px;
+  overflow: auto;
+  /*this element pushes the footer down*/
+  flex: 1 0 auto;
+  margin-top: 0;
+  margin-top: 47px;
 }
 
 /*artist photo*/
 #ava {
-    height: auto;
-    max-width: 50%;
-    position: relative;
-
+  height: auto;
+  max-width: 50%;
+  position: relative;
 }
 
 #corset-img {
-    height: auto;
-    max-width: 50%;
-    position: relative;
-
+  height: auto;
+  max-width: 50%;
+  position: relative;
 }
 
 #machine-img {
-    height: auto;
-    max-width: 30%;
-    position: relative;
-
+  height: auto;
+  max-width: 30%;
+  position: relative;
 }
 
 #thread-img {
-    height: auto;
-    max-width: 30%;
-    position: relative;
-
+  height: auto;
+  max-width: 30%;
+  position: relative;
 }
 
 #fabric-img {
-    height: auto;
-    max-width: 30%;
-    position: relative;
-
+  height: auto;
+  max-width: 30%;
+  position: relative;
 }
 
 /*google map adjustment from hubspot*/
 .google-map {
-    padding-bottom: 30%;
-    position: relative;
+  padding-bottom: 30%;
+  position: relative;
 }
 
 .google-map iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
 }
 
 footer {
-    background-color:#053a31
-
+  background-color: #053a31;
 }
 
 /*footer styling of le icons n stuffssss*/
 /*soial meida icon styling*/
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  color: #ffffff;
 }
 
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #ffffff;
+  font-size: 160%;
+  padding: 5%;
+  color: #ffffff;
+}
+
+.dropdown {
+  position: absolute;
+  width: 30%;
+  top: 127px;
+  right: 8px;
 }
 
 /*media query: tablets and larger (786px and up)*/
 @media screen and (min-width: 786px) {
+  /*header*/
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
 
-    /*header*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-    
-    #menu {
-        display: flex;
-    }
+  #menu {
+    display: flex;
+  }
 
-    #menu > li {
-        padding-left: 1rem;
-    }
+  #menu > li {
+    padding-left: 1rem;
+  }
 
-    .nav-toggle-label {
-        display: none;
-    }
+  .nav-toggle-label {
+    display: none;
+  }
 
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
+  #logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
 
-    /*main content*/
-    main {
-        margin-top: none;
-    }
+  /*main content*/
+  main {
+    margin-top: none;
+  }
+
+  .dropdown {
+    position: unset;
+    width: unset;
+    top: 127px;
+    right: 8px;
+  }
 }
 
 /*larg devices (laptops and desktops, 99px and up)*/
-@media screen and (min-width:99px) {
-    #menu a:hover {
-        border-bottom: 1px solid #e7385d;
-    }
+@media screen and (min-width: 99px) {
+  #menu a:hover {
+    border-bottom: 1px solid #e7385d;
+  }
 }
