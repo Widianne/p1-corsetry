@@ -1,3 +1,5 @@
+/*google fonts import*/
+@import url('https://fonts.google.com/specimen/Playfair+Display?preview.text=the%20corsetry%0A');
 * {
     padding: 0;
     border: 0;
@@ -28,16 +30,24 @@ header {
     width: 100%;
     box-shadow: 0;
     box-shadow: 0 2px 2px #d2d2ce;
+    
 }
 
-header a {
+header nav a {
     text-decoration: none;
     color: inherit;
+   
 }
 
 
 h1 {
     color: #053a31;
+    text-transform:initial;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-decoration: none;
+    
 }
 
 
