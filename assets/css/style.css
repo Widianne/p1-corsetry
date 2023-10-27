@@ -167,7 +167,7 @@ main {
 }
 
 footer {
-    background-color: brown;
+    background-color:#053a31
 
 }
 
@@ -179,12 +179,13 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    color: #ffffff;
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color:#3a3a3a;
+    color: #ffffff;
 }
 
 /*media query: tablets and larger (786px and up)*/
