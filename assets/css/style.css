@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*header img styling*/
+#hero {
+    height: 600px;
+    width: 100%;
+    /*this adds img to page head by gooing form assets to images to the acctual pic. then we make sure this centerd n pretty with thw follwoing commands. the commansd also make sure the img dosnet get distorted n weird on diffrant screansgi*/
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+/*artist photo*/
+#ava {
+    height: auto;
+    max-width: 50%;
+    position: relative;
+
+}
+
+#corset-img {
+    height: auto;
+    max-width: 50%;
+    position: relative;
+
+}
+
+#machine-img {
+    height: auto;
+    max-width: 30%;
+    position: relative;
+
+}
+
+#thread-img {
+    height: auto;
+    max-width: 30%;
+    position: relative;
+
+}
+
+
+/*google map adjustment from hubspot*/
+.google-map {
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
