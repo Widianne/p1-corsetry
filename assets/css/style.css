@@ -1,5 +1,6 @@
 /*google fonts import*/
 @import url('https://fonts.google.com/specimen/Playfair+Display?preview.text=the%20corsetry%0A');
+
 * {
     padding: 0;
     border: 0;
@@ -18,10 +19,9 @@
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;   
 }
+
 header {
     background-color: rgb(229, 229, 229);
     padding: 0 1rem;
@@ -56,6 +56,13 @@ h1 {
     
 }
 
+main {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: brown;
+}
 
 /*artist photo*/
 #ava {
