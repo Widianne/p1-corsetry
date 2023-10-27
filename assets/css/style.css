@@ -27,6 +27,8 @@ header {
     box-shadow: 0;
     box-shadow: 0 2px 2px #93938a;
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
    
 }
 
@@ -62,6 +64,20 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #93938a;
     display: none;
+    top: 100%;
+}
+
+/*nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle-label {
+    font-size: 2rem;
 }
 
 h1 {
