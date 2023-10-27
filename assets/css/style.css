@@ -25,7 +25,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0;
-    box-shadow: 0 2px 3px #93938a;
+    box-shadow: 0 2px 2px #93938a;
    
 }
 
@@ -36,7 +36,7 @@ header a {
     font-weight: bold;
     text-transform: none;  
     display: block; 
-    padding: 10px 0;
+    padding: 3px 0;
 }
 
 #menu {
@@ -45,11 +45,22 @@ header a {
     list-style-type: none;
 }
 #menu > li {
-    margin-bottom: 7 em;
+    margin-bottom: 4 em;
 }
 
 .active {
     border-bottom: 1px solid #14ceaf;
+}
+
+/*navbar styels with toggle dropdwon*/
+nav {
+    position: absolute;
+    background-color: rgb(229, 229, 229);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #93938a;
+    display: none;
 }
 
 h1 {
@@ -80,7 +91,7 @@ h2, h3 {
 main {
     background-color: aquamarine;
     margin-top: 100px;
-    padding: 20px;
+    padding: 10px;
     overflow: auto;
     /*this element pushes the footer down*/
     flex: 1 0 auto;
