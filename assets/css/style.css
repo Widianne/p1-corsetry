@@ -45,7 +45,7 @@ header a {
     color: inherit;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    
+    text-transform: none;   
 }
 
 
@@ -55,7 +55,7 @@ header a {
     list-style-type: none;
 }
 #menu > li {
-    margin-bottom: 1 em;
+    margin-bottom: 7 em;
 }
 
 .active {
@@ -69,6 +69,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 45px;
     text-decoration: none;
+    font-weight: bold;
     
 }
 
