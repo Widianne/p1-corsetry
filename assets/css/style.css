@@ -1,5 +1,8 @@
 /*google fonts import*/
+/*header font*/
 @import url('https://fonts.google.com/specimen/Playfair+Display?preview.text=the%20corsetry%0A');
+/*body text*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 * {
     padding: 0;
@@ -13,6 +16,7 @@ body {
     flex-direction: column;  
     /*generic styles*/
     color: #053a31; 
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*header img styling*/
