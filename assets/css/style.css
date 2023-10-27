@@ -29,6 +29,13 @@ header {
     box-shadow: 0;
     box-shadow: 0 2px 2px #d2d2ce;
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 h1 {
     color: #053a31;
 }
