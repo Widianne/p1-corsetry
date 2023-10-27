@@ -36,9 +36,18 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0;
-    box-shadow: 0 2px 2px #d2d2ce;
+    box-shadow: 0 2px 3px #93938a;
+   
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
     
 }
+
 
 #menu {
     font-size: 110%;
@@ -61,6 +70,10 @@ h1 {
     font-size: 45px;
     text-decoration: none;
     
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', serif;;
 }
 
 /*main content*/
