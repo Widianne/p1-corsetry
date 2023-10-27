@@ -42,6 +42,12 @@
 
 }
 
+#fabric-img {
+    height: auto;
+    max-width: 30%;
+    position: relative;
+
+}
 
 /*google map adjustment from hubspot*/
 .google-map {
