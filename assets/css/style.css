@@ -20,6 +20,18 @@ body {
     
     
 }
+header {
+    background-color: rgb(229, 229, 229);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0;
+    box-shadow: 0 2px 2px #d2d2ce;
+}
+h1 {
+    color: #053a31;
+}
 
 
 /*artist photo*/
