@@ -38,13 +38,20 @@ header {
     letter-spacing: 2px;
     list-style-type: none;
 }
+#menu > li {
+    margin-bottom: 1 em;
+}
+
+.active {
+    border-bottom: 1px solid #14ceaf;
+}
 
 h1 {
     color: #053a31;
     text-transform:initial;
     letter-spacing: 2px;
     font-family: 'Playfair Display', serif;
-    font-size: 50px;
+    font-size: 45px;
     text-decoration: none;
     
 }
