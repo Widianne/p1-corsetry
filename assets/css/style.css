@@ -209,7 +209,7 @@ footer {
 
 /*larg devices (laptops and desktops, 99px and up)*/
 @media screen and (min-width:99px) {
-    #menu a:hoover {
+    #menu a:hover {
         border-bottom: 1px solid #e7385d;
     }
 }
