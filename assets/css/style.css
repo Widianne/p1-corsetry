@@ -13,6 +13,15 @@
     position: relative;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
 /*artist photo*/
 #ava {
     height: auto;
