@@ -186,6 +186,49 @@ footer {
   right: 8px;
 }
 
+/*form design*/
+
+label { 
+  font-family: 'Playfair Display', serif;
+  color: darkorange;
+  font-weight: bold;
+}
+
+input {
+  color: blueviolet;
+  width: 100%;
+  padding: 20px 20px;
+
+}
+
+.submit-button {
+  color: blue;
+  background-color: cornflowerblue;
+  font-family: 'Playfair Display', serif;
+  border: none;
+  padding: 20px 20px;
+}
+
+#fname {
+  border: 2px solid #e7385d;
+  background-color: #e7385d;
+
+}
+
+#lname{
+  border: 2px solid #e7385d;
+  background-color: #e7385d;
+
+}
+
+#email {
+  border: 2px solid #e7385d;
+  background-color: #e7385d;
+
+}
+
+
+
 /*media query: tablets and larger (786px and up)*/
 @media screen and (min-width: 786px) {
   /*header*/
