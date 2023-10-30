@@ -456,9 +456,47 @@ label {
     height: auto;
   }
 }
+ 
 
-@media (max-width: 600px) {
+@media screen and (max-width: 480px) {
+  
   .content-container {
-      /* Your styles for the .content-container on the Galaxy Fold's screen */
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
   }
+
+  #ava {
+    height: auto;
+    max-width: 100%;
+    position: center;
+  }
+
+  #corset-img {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+  }
+
+  #machine-img {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  #fabric-img {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  #thread-img {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  
+
+
 }
