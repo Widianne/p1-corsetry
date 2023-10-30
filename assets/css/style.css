@@ -456,3 +456,9 @@ label {
     height: auto;
   }
 }
+
+@media (max-width: 600px) {
+  .content-container {
+      /* Your styles for the .content-container on the Galaxy Fold's screen */
+  }
+}
