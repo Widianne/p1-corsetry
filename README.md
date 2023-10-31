@@ -88,7 +88,7 @@ This is an example of the features section, your going to talk about each sectio
 * Each option is presented in a way that is always obvious and readable to the user with descriptive titles and corresponding paragraphs, broken up with imagery to give the site some air.
 * on the smallets screen there is drop down menu is provided to ensure mobile users have an optimal experience
 ​
-#### *features
+#### * Features
 ​
 * Footer holds all the social media links
 ​
