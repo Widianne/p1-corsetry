@@ -513,7 +513,7 @@ is less than or equal to 768px*/
   }
 }
  
-/*On screens with a maximum width of 480px, it adjusts the layout of the content-container 
+/*on screens with a maximum width of 480px, it adjusts the layout of the content-container 
 to display its content in a column, ensuring flexible alignment */
 @media screen and (max-width: 480px) {
   

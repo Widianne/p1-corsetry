@@ -1,13 +1,11 @@
 # Project 1, Corsetry
-My first project since enrolling in the Code Institute's full-stack developer course
+My first project since enrolling in the Code Institute's full-stack developer course. I chose to go the historical route and chose a historical item that personally interests me. 
 
 
-# **Site Title**
+# **The Corsetry**
 ## **Site Overview**
-This is where you give a brief overview of the page so, like an intro to the business or project followed by a brief talk about who the page is targeted at for example for a retro gaming arcade.
-​
-Retro arcade is a local business in the Sheffield area looking to offer young people a place to come and hangout and play old school games in a relaxed and friendly environment. Due to lower turnout than expected they have asked for a page to be built to spread the word in the community and wider areas. Ideally the business is intended to target younger gamers primarily but also be appealing to older people interested in a gaming experience 
-​
+ I have created a website for an independent corset designer based in France. She specializes in crafting custom-made corsets and is passionate about educating visitors on the subject while dispelling common myths. This is achieved by linking to relevant articles on other pages and providing comprehensive information on her own. The website primarily caters to historical fashion enthusiasts seeking bespoke corsets. Additionally, it serves as a valuable resource for those curious and eager to learn more about corsets
+
 ![Am I responsive screenshot](imagelocation so maybe docs/image.jpg)
 ​
 ## Table of contents:
@@ -38,26 +36,26 @@ Retro arcade is a local business in the Sheffield area looking to offer young pe
 ​
 This section is a breakdown of the target audience 3 or 4 bullet points so using our example
 ​
-* Users interested in retro gaming 
-* Users interested in a safe environment to gather and have fun
-* Users interested in activities in the Sheffield area
+* Users interested historical fashion
+* Users interested in getting a custom made corset
+* Users interested in learning more about the history behind corsets
 ​
 ### **User Stories:**
 ​
 User stories are more what the user wants from the site in terms of features and presentation
 ​
-* As a user, I want to see the subject matter of the page.
-* As a user, I want to navigate the page to find what I require quickly and easily.
+* As a user, I want to instatly understand what the page is about and who is behind it.
+* As a user, I want to easily navigate on the page to find what I need (information about the corset maker, historicly accurete information about corsets and how I can order one)
 * As a user, I want to learn more about what the business offers
-* As a user, I want to reach out and contact the business
+* As a user, I want to reach out and contact the business with a form to get further information
 ​
 ### **Site Aims:**
 ​
 This is optional but offers the insight into what the aim of the project are
 ​
-* To inform the user on opening times
-* To inform the user about what we offer when they are here
-* To offer the user an oppertunity to get in contact
+* To make it easy for the user to contact the corset maker by a form
+* To inform the user on what centuries corsets can be made
+* To offer the user diffrent opptions on how and where to get information on corsets
 ​
 ​
 ### **Wireframes:**
@@ -65,31 +63,28 @@ This is optional but offers the insight into what the aim of the project are
 These are optional if you have any drawings or diagrams about how the site is intended to look include them here
 ​
 ### **Color Scheme:**
-​
-Here discuss about the colours you have chosen for the design and the reasoning behind it, make sure to include hash values as well!
-​
-For the page we decided on a black (#000) and red theme (#a red hash i can't remember one) to hark back to the designs of the Sega megadrive which is symbolic of the retro gaming scene blah blah bull shit goes here
-​
+
+When selecting the colors for the site, it was important to me to convey that this is a slow fashion brand. I believe that the dark green creates a calming and reassuring impression for visitors. The lighter green provides a nice contrast and offers a glimpse of Ava's personality – she is both fun and professional. I aimed to maintain a somewhat minimal color scheme to emphasize that, for the maker, only one thing truly matters here, good corsets.
+
 ## **Typography**
 ​
 Here is a chance to discuss the fonts used and again why, doesn't need to be crazy detail
 ​
-* Throughout the page, there are three fonts used:
-  * Oswald - For the title to give it a strong presence.
-  * DM sans - For all other headings including the navbar. 
-  * Open sans - for all content text.
-​
-* DM and Open sans were both selected to complement each other and because they have a soft appearance which I thought best suited to the site
-* All fonts were sourced from Google fonts, as stated in the credits.
+* Throughout the page, there are two fonts used:
+  * Roboto Mono - For the body to give it a strong presence and a bit of a old gazette.
+  * Playfair Display - For all headings including the navbar to give the site a romatic femme feel. 
+
+* They were both selected to complement each other and because they give a good balance between old and modern
+* All fonts were sourced from Google fonts.
 ​
 ## **Current Features Common to all pages**
 ​
 #### *Navigation Bar:*
 This is an example of the features section, your going to talk about each section of the page and what it offers for the navbar for example
 ​
-* The user is given links to each section of the page
-* Each option is presented in a way that is always obvious and reable
-* on smaller screens a hamburger menu is provided to ensure mobile users have an optimal experience
+* The user is given links to each section of the page in the nav bar, if you click on ex 'Get in touch' you'll get to the form
+* Each option is presented in a way that is always obvious and readable to the user with descriptive titles and corresponding paragraphs, broken up with imagery to give the site some air.
+* on the smallets screen there is drop down menu to ensure mobile users have an optimal experience
 ​
 #### *features
 ​
