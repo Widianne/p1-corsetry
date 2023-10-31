@@ -160,19 +160,20 @@ h3 {
 
 /*main content*/
 main {
-  /*margin-top: 100px;
+  margin-top: 47px; /* Set the desired margin-top value */
   padding: 10px;
-  overflow: auto;
-  margin-top: 0;*/
-  /*this pushes the footer down*/
-  flex: 1 0 auto;
-  margin-top: 47px;
+  flex: 1 0 auto; /* This pushes the footer down */
+}
+
+/*css for responsive images*/
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*header img styling, computer*/
 #hero {
-  /*this adds img to page head by gooing form assets to images to the acctual pic. then we make sure this centerd n pretty with thw follwoing commands. the commansd also make sure the img dosnet get distorted n weird on diffrant screansgi*/
-
+  /*applies a centered, full-width background image with the original aspect ratio*/
   background-size: cover;
   position: relative;
   width: 100%;
@@ -180,57 +181,65 @@ main {
   background: url('../images/hero-image.webp') no-repeat center center/cover;
 }
 
-/*artist photo*/
+/*photo styling, uses a relative position for the element*/
 #ava {
   height: auto;
   max-width: 50%;
   position: relative;
 }
-
+/*centers the content by using a flex display and aligning the items in the center*/
 .content-container {
   display: flex;
   align-items: center;
 }
 
+/*photo styling, uses a relative position for the element*/
 #corset-img {
   height: auto;
   max-width: 33%;
   position: relative;
 }
 
+/*centers the content by using a flex display and aligning the items in the center*/
 .content-container {
   display: flex;
   align-items: center;
 }
 
+/*photo styling, uses a relative position for the element*/
 #machine-img {
   height: auto;
   max-width: 33%;
   position: relative;
 }
 
+/*centers the content by using a flex display and aligning the items in the center*/
 .content-container {
   display: flex;
   align-items: center;
 }
 
+/*photo styling, uses a relative position for the element*/
 #fabric-img {
   height: auto;
   max-width: 33%;
   position: relative;
 }
 
+/*centers the content by using a flex display and aligning the items in the center*/
 .content-container {
   display: flex;
   align-items: center;
 }
 
+/*photo styling, uses a relative position for the element*/
 #thread-img {
   height: auto;
   max-width: 50%;
   position: relative;
 }
 
+/*centers the content by using a flex display and aligning the items in the center*/
 .content-container {
   display: flex;
   align-items: center;
@@ -242,6 +251,7 @@ main {
   position: relative;
 }
 
+/*resizes the embedded map to fill its container*/
 .google-map iframe {
   height: 100%;
   width: 100%;
@@ -250,13 +260,12 @@ main {
   position: absolute;
   padding-top: 10px;
 }
-
+/*sets footer color*/
 footer {
   background-color: #053a31;
 }
 
-/*footer styling of le icons n stuffssss*/
-/*soial meida icon styling*/
+/*arranges social network links in a horizontal line with equal spacing between them*/
 #social-networks {
   text-align: center;
   padding: 20px 0;
@@ -266,13 +275,15 @@ footer {
   color: #ffffff;
 }
 
+/*enlarges the social network icons and adds padding around them*/
 #social-networks i {
   font-size: 160%;
   padding: 5%;
   color: #ffffff;
 }
 
-/*media query: tablets and larger (786px and up)*/
+/*on larger screens (786px and wider), 
+it customizes the appearance and behavior of the navigation menu.*/
 @media screen and (min-width: 786px) {
   /*header*/
   nav {
@@ -283,30 +294,35 @@ footer {
     padding-right: 1rem;
   }
 
+  /*displays menu items in a row*/
   #menu {
     display: flex;
   }
 
+  /*adds left padding to the list items*/
   #menu > li {
     padding-left: 1rem;
   }
 
+  /*hides the element and pushes it to the right*/
   .nav-toggle-label {
     display: none;
     margin-left: auto;
   }
 
+  /*sets the logo's font size */
   #logo {
     font-size: 280%;
     line-height: 75px;
     margin: 0 0.5rem;
   }
 
-  /*main content*/
+  /*sets the top margin of the main element*/
   main {
-    margin-top: none;
+    margin-top: 0;
   }
 
+  /*resets and repositions the dropdown element*/
   .dropdown {
     position: unset;
     width: unset;
@@ -316,15 +332,15 @@ footer {
   }
 }
 
-/*larg devices (laptops and desktops, 99px and up)*/
+/*on screens with a minimum width of 99px, it adds a bottom border to hyperlinks 
+in the "menu" when they are hovered over*/
 @media screen and (min-width: 99px) {
   #menu a:hover {
     border-bottom: 1px solid #38d3e7;
   }
 }
 
-/*a fucking grid?*/
-
+/*styles elements with the class grid-item*/
 .grid-item {
   background-color: #ffffff;
   padding: 20px;
@@ -334,7 +350,7 @@ footer {
   border-radius: 8px;
 }
 
-/* Responsive grid styles */
+/*defines a grid layout for elements with the class*/
 .grid-container {
   display: grid;
   gap: 20px;
@@ -343,28 +359,31 @@ footer {
   padding: 20px;
 }
 
-/* Mobile styles */
+/*defines a responsive layout for screens with a maximum width of 767px*/
 @media screen and (max-width: 767px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
 }
 
-/* Tablet styles */
+/*defines a responsive layout for screens with a minimum width of 768px and a 
+maximum width of 1023px */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .grid-container {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/* Computer styles */
+/*defines a responsive layout for screens with a minimum width of 1024px or larger*/
 @media screen and (min-width: 1024px) {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-/* Media query for tablet screens */
+/*makes adjustments for tablet screens with a minimum width of 768px or larger. 
+It sets a maximum width of 600px for the "signup" section and centers 
+it horizontally on the screen*/
 @media screen and (min-width: 768px) {
   #signup {
     max-width: 600px; /* Wider section on tablet screens */
@@ -372,16 +391,14 @@ footer {
   }
 }
 
-/* Media query for computer screens */
+/*adjusts the "signup" section for screens with a minimum width of 1024px or larger*/
 @media screen and (min-width: 1024px) {
   #signup {
     max-width: 800px; /* Wider section on computer screens */
   }
 }
 
-/*the form*/
-
-/* Base styles for the section */
+/*styles the "signup" section */
 #signup {
   justify-content: space-between;
   background-color: #053a31;
@@ -389,12 +406,14 @@ footer {
   padding: 10px;
 }
 
+/*styles the signup-h2 element*/
 #signup-h2 {
   font-size: 24px;
   color: #ffffff;
   text-align: center;
 }
 
+/*styles the signup-p element */
 #signup-p {
   font-size: 16px;
   margin-bottom: 15px;
@@ -404,12 +423,16 @@ footer {
   padding-right: 10%;
 }
 
+/*styles the form within the "signup" section by making its child elements 
+align in a column, centering them vertically and horizontally*/
 #signup form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/*sets the width, margin, and maximum width for the label, input, and button 
+elements within the signup section*/
 #signup label,
 #signup input,
 #signup button {
@@ -418,6 +441,8 @@ footer {
   max-width: 300px;
 }
 
+/*gives the button a background color, text color, font family, removes the border, 
+adds padding, and rounds the corners with a border radius*/
 #signup button {
   background-color: #83ffea;
   color: #053a31;
@@ -427,6 +452,7 @@ footer {
   border-radius: 12px;
 }
 
+/*styles the input elements*/
 input {
   color: #053a31;
   width: 50%;
@@ -435,6 +461,8 @@ input {
   display: block;
 }
 
+/*styles the label elements, displaying them as block-level elements, 
+and aligning the text to the left*/
 label {
   font-family: 'Playfair Display', serif;
   color: #ffffff;
@@ -443,26 +471,33 @@ label {
   text-align: left;
 }
 
+/* sets up a grid layout with two columns, where the first column takes up 2 times 
+the space of the second column*/
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
+/*styles the input field*/
 #fname {
   border: 2px solid #ffffff;
   background-color: #dcfffb;
 }
 
+/*styles the input field*/
 #lname {
   border: 2px solid #ffffff;
   background-color: #dcfffb;
 }
 
+/*styles the input field*/
 #email {
   border: 2px solid #ffffff;
   background-color: #dcfffb;
 }
 
+/*makes adjustments to the "hero" element when the screen width 
+is less than or equal to 768px*/
 @media (max-width: 768px) {
   #hero {
     max-width: 100%;
@@ -470,7 +505,7 @@ label {
   }
 }
 
-/*header img for phone*/
+/*styls the header img for phone*/
 @media (max-width: 480px) {
   #hero {
     max-width: 100%;
@@ -478,7 +513,8 @@ label {
   }
 }
  
-
+/*On screens with a maximum width of 480px, it adjusts the layout of the content-container 
+to display its content in a column, ensuring flexible alignment */
 @media screen and (max-width: 480px) {
   
   .content-container {
@@ -487,67 +523,80 @@ label {
     justify-content: flex-start;
   }
 
+  /*scales img element proportionally, fitting within its parent container.*/
   #ava {
     height: auto;
     max-width: 100%;
-    position: center;
+    position: relative;
   }
 
+  /*scales img element proportionally, fitting within its parent container*/
   #corset-img {
     height: auto;
     max-width: 100%;
     position: relative;
   }
 
+  /*scales img element proportionally, fitting within its parent container*/
   #machine-img {
     height: auto;
     max-width: 100%;
     position: relative;
   }
   
+  /*scales img element proportionally, fitting within its parent container*/
   #fabric-img {
     height: auto;
     max-width: 100%;
     position: relative;
   }
   
+  /*scales img element proportionally, fitting within its parent container*/
   #thread-img {
     height: auto;
     max-width: 100%;
     position: relative;
   }
   
- 
+  /*adds equal padding to the left and right */
 .pl-1 {
   padding-left: 1rem;
   padding-right: 1rem;
-   
 }
 
+/*adds equal padding to the left and right sides of elements with this class, 
+creating spacing*/
 .pr-1 {
   padding-left: 1rem;
   padding-right: 1rem;
 
 }
 
+/*adds equal padding to the left and right sides of elements with this class, 
+creating spacing*/
 .pr-3 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
+/*" adds equal padding to the left and right sides of elements with this class, 
+creating spacing*/
 .pb-1 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
+/*adds equal padding to the left and right sides of elements with this class, 
+creating spacing */
 .mt-1 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
+/*enters the text of elements with this class horizontally within their containers*/
 .text-center {
   text-align: center;
 }
-
-
 }
+
+
