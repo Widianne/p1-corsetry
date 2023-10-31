@@ -18,9 +18,11 @@ My first project since enrolling in the Code Institute's full-stack developer co
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
+    * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
     * [***Typography**](#typography)
-1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
+1. [**Current Features Common to all pages**]
+(#current-features-common-to-all-pages)
     * [***Header Element:***](#header-element)
     * [***The rest of your features***](#features)
     * [**Footer**](#footer)
@@ -88,7 +90,7 @@ This is an example of the features section, your going to talk about each sectio
 ​
 #### *features
 ​
-* This is where you will place all of your features think about each section of the page include a screenshot and a few bullet points on how it's presented and why
+* Footer holds all the social media links
 ​
 ## **Future-Enhancements**
 ​
@@ -119,24 +121,195 @@ Here is a good idea to talk about how and why you have tested with certain tools
 - File(s) Checked: [index.html]
 - Validator Used: [https://validator.w3.org/]
    
-- the issues appereing were to toake away the <br> and I did.
+- The issues appereing were to toake away the <br> and I did even tho oddy it says I didn't.
+ 
+* the result here and on the site [https://validator.w3.org/nu/?doc=https%3A%2F%2Fwidianne.github.io%2Fp1-corsetry%2F]
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 4, column 5; to line 4, column 28
+
+head>↩    <meta charset="UTF-8" />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 5, column 5; to line 5, column 76
+
+8" />↩    <meta name="viewport" content="width=device-width, initial-scale=1.0" />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 7, column 5; to line 10, column 6
+
+ns-->↩    <meta↩      name="description"↩      content="Corset, Corsetry, Paris, Fashion Design, Custom made, Independent Design, Historical fashion"↩    />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 12, column 5; to line 15, column 6
+
+te-->↩    <meta↩      name="kewords"↩      content="corset, corsetry, handmade, paris, sewing, design, independent, historical, history"↩    />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 17, column 5; to line 21, column 6
+
+on-->↩    <link↩      rel="icon"↩      type="image/icon"↩      href="assets/favicon/hat-wizard-solid.svg"↩    />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 22, column 5; to line 22, column 73
+
+   />↩    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 31, column 7; to line 31, column 65
+
+el>↩      <input type="checkbox" id="nav-toggle" name="nav-toggle" />↩↩    
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 43, column 6; to line 47, column 8
+
+ain>↩     <img↩        src="assets/imgss/header.jpg"↩        id="hero"↩        alt="Header img with flowers"↩      />↩↩    
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 52, column 11; to line 52, column 70
+
+          <img src="assets/imgss/ava.jpg" id="ava" alt="The artist" />↩↩    
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 70, column 11; to line 74, column 12
+
+          <img↩            src="assets/imgss/corset.jpg"↩            id="corset-img"↩            alt="Woman wearing a corseted dress"↩          />↩↩    
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 98, column 11; to line 102, column 12
+
+          <img↩            src="assets/imgss/machine.jpg"↩            id="machine-img"↩            alt="Old sewing machine"↩          />↩     
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 106, column 11; to line 110, column 12
+
+          <img↩            src="assets/imgss/fabric.jpg"↩            id="fabric-img"↩            alt="Img of artist cutting fabric"↩          />↩     
+
+Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+
+From line 111, column 11; to line 111, column 19
+
+          <section>↩     
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 126, column 11; to line 130, column 12
+
+          <img↩            src="assets/imgss/thread.jpg"↩            id="thread-img"↩            alt="Img of sewing thread and flowers"↩          />↩     
+
+Error: Element br not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)
+
+From line 146, column 15; to line 146, column 20
+
+          <br />↩     
+
+Contexts in which element br may be used:
+Where phrasing content is expected.
+Content model for element ul:
+Zero or more li and script-supporting elements.
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 146, column 15; to line 146, column 20
+
+          <br />↩     
+
+Error: Element br not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)
+
+From line 156, column 15; to line 156, column 20
+
+          <br />↩     
+
+Contexts in which element br may be used:
+Where phrasing content is expected.
+Content model for element ul:
+Zero or more li and script-supporting elements.
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 156, column 15; to line 156, column 20
+
+          <br />↩     
+
+Error: Element br not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)
+
+From line 166, column 15; to line 166, column 20
+
+          <br />↩     
+
+Contexts in which element br may be used:
+Where phrasing content is expected.
+Content model for element ul:
+Zero or more li and script-supporting elements.
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 166, column 15; to line 166, column 20
+
+          <br />↩     
+
+Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+
+From line 131, column 11; to line 131, column 32
+
+          <section class="pl-1">↩     
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 192, column 13; to line 192, column 57
+
+          <input type="text" id="fname" name="fname" />↩     
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 195, column 13; to line 195, column 57
+
+          <input type="text" id="lname" name="lname" />↩     
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 198, column 13; to line 198, column 58
+
+          <input type="email" id="email" name="email" />↩     
+
+Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+
+From line 181, column 7; to line 181, column 42
+
+n>↩↩      <section id="section3" class="mt-1">↩  
 
 ### CSS Validation
 
-- Date and Time: [Insert Date and Time]
-- File(s) Checked: [Insert CSS File Names]
-- Validator Used: [Insert CSS Validator Name]
+- Date and Time: [October 31, 2023, 3:00 PM]
+- File(s) Checked: [style.css]
+- Validator Used: [https://jigsaw.w3.org/css-validator/]
    
-[Insert CSS validation results and any actions taken to address issues.]
-​
+* the imgs were to big but have been down sized
+* fixed the font problem (i think)
+* not sure about the last error and how to fix it...
+
+* the result here and on the site [https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwidianne.github.io%2Fp1-corsetry%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv]
+
+3 File not found: https://fonts.google.com/specimen/Playfair+Display?preview.text=the%20corsetry%0A: You can't import an HTML document
+
+Line 58 - #menu > li: Value error: margin-bottom Too many values or values can be recognized: 4 em.
 ​
 ## **Bugs**
 ​
 We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
 ​
-* Issue - When on mobile the user had horizontal scroll with items overflowing
-* Cause - The images had absolute positioning and caused them to go off screen
-* Resolution - Changed the width of the image to stay within the confines of the screen.
+* image troubles in regards to sizing and positioning on phone
+
+* header img looking weird, considerd taking it away
 ​
 ***
 ## **Deployment**
@@ -147,25 +320,48 @@ I deployed the page on GitHub pages via the following procedure: -
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You  can find the live site via the following URL - [live webpage](https://yoururlhere)
+* Yes I did exactly this step 1 - 4
+You  can find the live site via the following URL - [live webpage](https://widianne.github.io/p1-corsetry/)
 ***
 ​
 ## **Tech**
 ​
 Here mention what technologies you've used for example
 ​
+* Website only made with:
 - HTML
 - CSS
+- VSC
+- W3C
 ​
 ## **Credits**
 ### **Honorable mentions**
 ​
-It's always nice to mention those that helped you get there, if people gave you support on slack or the local cat scared you into completing give them a mention!
+Thanks to my Mentor!
 ​
 ### **Content:**
 ​
-If you took any code from online source and by this i mean copy paste with zero changes mention it here!
+I based some of my code on the Love Running CI code but made changes
   
 ### **Media:**
 ​
-Links to the locations of images if you've used them from an online source!
+* All imgs are from https://unsplash.com/
+
+The imgs
+* Fabric
+https://unsplash.com/photos/woman-holding-green-textile-inside-room-BCNjBsK37XA
+
+* Hero
+https://unsplash.com/photos/floral-artwork-on-surface-d2zvqp3fpro
+
+* Thread
+https://unsplash.com/photos/assorted-color-thread-in-bowl-beside-three-roses-on-two-hardbound-books-TYhEoWbbayQ
+
+* Corset
+https://unsplash.com/photos/woman-in-wedding-dress-standing-near-window-looking-outside-while-holding-the-curtains-Efd5oh-nQWI
+
+* Ava
+https://unsplash.com/photos/a-woman-with-a-ring-on-her-finger-3FDpB6TD6_o
+
+* Sewing machine
+https://unsplash.com/photos/a-close-up-of-a-sewing-machine-on-a-table-1urO7XN3zuA
