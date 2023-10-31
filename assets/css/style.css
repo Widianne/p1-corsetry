@@ -4,12 +4,14 @@
 /*body text*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+/*ensures consistent and predictable styling across different browsers*/
 * {
   padding: 0;
   border: 0;
   box-sizing: border-box;
 }
 
+/*styling and layout for the entire webpage's body and  arranges content vertically*/
 body {
   min-height: 100vh;
   display: flex;
@@ -21,6 +23,8 @@ body {
   margin: 0;
 }
 
+/*styles the header element with a dark background color, full width, and specific 
+layout using flex properties, including horizontal spacing between child elements*/
 header {
   background-color: #053a31;
   padding: 0;
@@ -31,6 +35,8 @@ header {
   align-items: baseline;
 }
 
+/*tyles anchor links within the header by removing underlines, adjusting the font, 
+making the text bold, and adding vertical padding*/
 header a {
   text-decoration: none;
   color: inherit;
@@ -40,43 +46,53 @@ header a {
   padding: 3px 0;
 }
 
+/*font size, letter spacing, and removes list-style for an element with the ID menu*/
 #menu {
   font-size: 110%;
   letter-spacing: 2px;
   list-style-type: none;
 }
+
+/*vertical spacing between the list items within the menu*/
 #menu > li {
   margin-bottom: 4 em;
 }
-
+ /*indicates that an element is currently active/selected*/
 .active {
   border-bottom: 1px solid #14ceaf;
 }
 
+/*adds left padding to the element, pushing content away from the left*/
 .pl-1 {
   padding-left: 1rem;
 }
 
+/*right padding to the element, creating space on the right side.*/
 .pr-1 {
   padding-right: 1rem;
 }
 
+/* creates padding on the right side of the element*/
 .pr-3 {
   padding-right: 3rem;
 }
 
+/*adds padding to the bottom of the element*/
 .pb-1 {
   padding-bottom: 1rem;
 }
 
+/*adds margin to the top of the element, pushing it away from elements above it*/
 .mt-1 {
   margin-top: 1rem;
 }
 
+/*centers text content of the element horizontally*/
 .text-center {
   text-align: center;
 }
 
+/**/
 .dropdown {
   text-align: center;
   position: absolute;
@@ -86,16 +102,18 @@ header a {
   border: 1px black solid;
 }
 
+/*adds an underline to all anchor elements*/
 a {
   text-decoration: underline;
   color: #053a31;;
 }
 
+/*removes the default list-styles*/
 ul {
   list-style: none;
 }
 
-/*navbar styels with toggle dropdwon*/
+/*styles the navigation bar*/
 nav {
   background-color: #053a31;
   width: 100%;
@@ -106,19 +124,22 @@ nav {
   color: #ffffff;
 }
 
-/*nav toggle*/
+/*nav toggle, used to show or hide a navigation menu on mobile*/
 #nav-toggle:checked ~ nav {
   display: block;
 }
 
+/*makes the element invisible on the web page*/
 #nav-toggle {
   display: none;
 }
 
+/*sets the font size of the element, making them more visually prominent*/
 #nav-toggle-label {
   font-size: 2rem;
 }
 
+/*styels h1*/
 h1 {
   color: #ffffff;
   text-transform: initial;
@@ -129,6 +150,7 @@ h1 {
   font-weight: bold;
 }
 
+/*sets the font family for these header elements*/
 h2,
 h3 {
   font-family: 'Playfair Display', serif;
@@ -138,12 +160,11 @@ h3 {
 
 /*main content*/
 main {
-  /*background-color: aquamarine;
-  margin-top: 100px;
+  /*margin-top: 100px;
   padding: 10px;
   overflow: auto;
   margin-top: 0;*/
-  /*this element pushes the footer down*/
+  /*this pushes the footer down*/
   flex: 1 0 auto;
   margin-top: 47px;
 }
