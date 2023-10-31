@@ -6,7 +6,11 @@ My first project since enrolling in the Code Institute's full-stack developer co
 ## **Site Overview**
  I have created a website for an independent corset designer based in France. She specializes in crafting custom-made corsets and is passionate about educating visitors on the subject while dispelling common myths. This is achieved by linking to relevant articles on other pages and providing comprehensive information on her own. The website primarily caters to historical fashion enthusiasts seeking bespoke corsets. Additionally, it serves as a valuable resource for those curious and eager to learn more about corsets
 
-![Am I responsive screenshot](imagelocation so maybe docs/image.jpg)
+![Am I responsive screenshot](assets/imgss/Screenshot%202023-10-31%20at%2014.49.12.png)
+
+[Click here to visit the live site] (https://widianne.github.io/p1-corsetry/)
+
+
 ​
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
@@ -14,7 +18,6 @@ My first project since enrolling in the Code Institute's full-stack developer co
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
-    * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
     * [***Typography**](#typography)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
@@ -53,14 +56,11 @@ User stories are more what the user wants from the site in terms of features and
 ​
 This is optional but offers the insight into what the aim of the project are
 ​
-* To make it easy for the user to contact the corset maker by a form
-* To inform the user on what centuries corsets can be made
+* To make it easy for the user to contact the corsetmaker by a form
+* To inform the user on from what centuries corsets can be made
 * To offer the user diffrent opptions on how and where to get information on corsets
 ​
-​
-### **Wireframes:**
-​
-These are optional if you have any drawings or diagrams about how the site is intended to look include them here
+
 ​
 ### **Color Scheme:**
 
@@ -84,7 +84,7 @@ This is an example of the features section, your going to talk about each sectio
 ​
 * The user is given links to each section of the page in the nav bar, if you click on ex 'Get in touch' you'll get to the form
 * Each option is presented in a way that is always obvious and readable to the user with descriptive titles and corresponding paragraphs, broken up with imagery to give the site some air.
-* on the smallets screen there is drop down menu to ensure mobile users have an optimal experience
+* on the smallets screen there is drop down menu is provided to ensure mobile users have an optimal experience
 ​
 #### *features
 ​
@@ -92,11 +92,13 @@ This is an example of the features section, your going to talk about each sectio
 ​
 ## **Future-Enhancements**
 ​
-A webpage is a living beast it's going to evolve past the initial stages of release generally, it's always good to discuss where you this the page may go in the future
-​
-* At the time of making this page i didn't have the understanding to actual send e-mails from the contact form so intergration with email.js to send e-mails would improve the users experience
-​
-* Due to the subject matter, we have discussed the idea of including a small JS game to engage the user
+* As this marks my inaugural project, my primary focus has been on learning and comprehending the process. I am pleasantly surprised by the results, but there is certainly room for improvement.
+
+* In the future, I aim to delve deeper into the finer details, especially concerning the dimensions of various elements, such as images, text, and the submission button. I believe refining these proportions will enhance the page's overall aesthetics and user experience.
+
+* Given the opportunity, I would like to present external links on charming post-it notes or other playful elements to make them more engaging.
+
+* Working on the mobile version posed challenges, mainly related to element sizing. For instance, the header/hero image appeared disproportionately small, and the gap between it and the navigation required adjustments. Additionally, I envisioned enlarging the map in the mobile version.
 ​
 ## **Testing Phase**
 ​
@@ -104,9 +106,9 @@ This is the hardest bit of the readme, when we have completed a page we need to 
 ​
 Here is a good idea to talk about how and why you have tested with certain tools and validators so here a list of things to talk through
 ​
-* Responsiveness - How do you test this, dev tools? checking on multiple devices?
-​
-* Functionality - Each feature needs to be tested before something is complete, talk about the process, click each link check each image, does form validation work, if your using javascript or anything else, does it always behave as the user expects
+* Responsiveness - I tested the website's adaptability across various devices such as phones, tablets, and computers using Chrome's inspect tool. I encountered initial challenges with the @media queries, but I noticed some improvement in my understanding towards the end of the project
+
+* Functionality - I clicked around and it seems to be working fine
 ​
 * Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
 ​
