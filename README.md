@@ -111,6 +111,23 @@ Here is a good idea to talk about how and why you have tested with certain tools
 * Functionality - I clicked around and it seems to be working fine
 ​
 * Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
+
+
+### HTML Validation
+
+- Date and Time: [October 31, 2023, 3:00 PM]
+- File(s) Checked: [index.html]
+- Validator Used: [https://validator.w3.org/]
+   
+- the issues appereing were to toake away the <br> and I did.
+
+### CSS Validation
+
+- Date and Time: [Insert Date and Time]
+- File(s) Checked: [Insert CSS File Names]
+- Validator Used: [Insert CSS Validator Name]
+   
+[Insert CSS validation results and any actions taken to address issues.]
 ​
 ​
 ## **Bugs**
